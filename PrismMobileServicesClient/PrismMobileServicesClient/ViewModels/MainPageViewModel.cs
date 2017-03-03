@@ -51,6 +51,8 @@ namespace PrismMobileServicesClient.ViewModels
         private void GetTable()
         {
              IMobileServiceTable<TodoItem> todoTable = MobileService.GetTable<TodoItem>();
+
+            todoTable.ToString();
         }
     }
 }
